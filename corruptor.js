@@ -1,5 +1,5 @@
 function corruptme(r) {
-    for (corrupters = ["0", "+", "#", "@", "&", "%", "$", "§", "!"], Amax = r.length, ammount = Amax / 5, i = 0; i < ammount; i++) {
+    for (corrupters = ["0", "@", "&", "%", "$", "§"], Amax = r.length, ammount = Amax / 10, i = 0; i < ammount; i++) {
         let t = corrupters[rng(corrupters.length)],
             n = rng(Amax);
         " " != r[n] ? r = rep(r, n, t) : i--
