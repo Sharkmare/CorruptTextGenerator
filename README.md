@@ -1,2 +1,4 @@
 # CorruptTextGenerator
-JS code that returns "corrupted" text
+Code that returns "corrupted" text
+
+Currently supporting JS, Python and C
