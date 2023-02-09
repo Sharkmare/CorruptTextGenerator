@@ -29,8 +29,8 @@ char *corrupt_text(const char *text) {
 
 int main() {
     char original_text[] = "some random string";
-    char *corrupted_text = corrupt_text(original_text);
     printf("Original text: %s\n", original_text);
+    char *corrupted_text = corrupt_text(original_text);
     printf("Corrupted text: %s\n", corrupted_text);
     free(corrupted_text);
     return 0;
